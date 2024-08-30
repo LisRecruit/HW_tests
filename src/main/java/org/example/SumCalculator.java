@@ -5,12 +5,12 @@ public class SumCalculator {
         int result=n;
         if (n<=0) {
             throw new IllegalArgumentException("\"n\" must be 1 or higher");
-        }else {
+        }
             for (int i = 1; i < n; i++) {
                 System.out.println(result);
                 result+=i;
             }
-        }
+
         return result;
     }
 }
